@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/development/postfix-eval-tranhd98/evaluator.cpp
+evaluator.h
+/mnt/c/development/postfix-eval-tranhd98/evaluator.h
+stack
+/mnt/c/development/postfix-eval-tranhd98/stack
+sstream
+-
+cmath
+-
+iostream
+-
+string
+-
+
+/mnt/c/development/postfix-eval-tranhd98/evaluator.h
+string
+-
+
+/mnt/c/development/postfix-eval-tranhd98/main.cpp
+evaluator.h
+/mnt/c/development/postfix-eval-tranhd98/evaluator.h
+cmath
+-
+iostream
+-
+iomanip
+-
+string
+-
+queue
+-
+

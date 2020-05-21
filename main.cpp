@@ -1,10 +1,9 @@
 #include "evaluator.h"
-
+#include <queue>
 #include <cmath>
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include <queue>
 using std::cout;
 using std::cerr;
 using std::endl;
@@ -105,7 +104,7 @@ int main(int argc, char* argv[]){
 	cout << "Normal Test:  " << setw(6) << fixed << setprecision(2) << (grade / TOTAL_TESTS * 100) << endl;
 	cout << "Extra Credit: " << setw(6) << fixed << setprecision(2) << (xGrade / XTOTAL_TESTS * 100 * 0.3) << endl;
 	cout << endl;
-	cout << "Total:        " << setw(6) << fixed << setprecision(2) << ((grade / TOTAL_TESTS * 100 * 0.3) + (xGrade / XTOTAL_TESTS * 100)) << endl;
+    cout << "Total:        " << setw(6) << fixed << setprecision(2) << ((grade / TOTAL_TESTS * 100) + (xGrade / XTOTAL_TESTS * 100 * 0.3)) << endl;
 
 
 

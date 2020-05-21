@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/development/postfix-eval-tranhd98
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/development/postfix-eval-tranhd98/cmake-build-debug
